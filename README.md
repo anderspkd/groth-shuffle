@@ -6,3 +6,6 @@ Jens Groth in their paper [Efficient Zero-Knowledge Argument for Correctness of 
 The implementation uses [Relic](https://github.com/relic-toolkit/relic/) for elliptic curve operations.
 
 To build, simple run `cmake . -B build && cd build && make && make tests`.
+
+This code was taken from a previous project of mine, and it's free to use
+(without warranty and all that jazz).
