@@ -62,7 +62,7 @@ Ctxt Add(const Ctxt& E0, const Ctxt& E1);
 /**
  * @brief Compute a "dot" product between a list of ciphertexts and scalars.
  * @param as the scalars
- const std::vector<shf::Scalar>& as* @param Es the ciphertexts
+ * @param Es the ciphertexts
  * @return a ciphertext E defined as E = sum_i as[i]*Es[i].
  */
 Ctxt Dot(const std::vector<shf::Scalar>& as, const std::vector<Ctxt>& Es);
