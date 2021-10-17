@@ -1,5 +1,5 @@
-#ifndef MH_ZKP_H
-#define MH_ZKP_H
+#ifndef SHF_ZKP_H
+#define SHF_ZKP_H
 
 #include <vector>
 
@@ -194,4 +194,4 @@ bool VerifyProof(const CommitKey& ck, const PublicKey& pk, Hash& hash,
 
 }  // namespace mh
 
-#endif  // MH_ZKP_H
+#endif  // SHF_ZKP_H

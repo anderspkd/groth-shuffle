@@ -1,5 +1,5 @@
-#ifndef MH_COMMIT_H
-#define MH_COMMIT_H
+#ifndef SHF_COMMIT_H
+#define SHF_COMMIT_H
 
 #include <vector>
 
@@ -32,4 +32,4 @@ bool CheckCommitment(const CommitKey& ck, const Point& comm, const Scalar& r,
 
 }  // namespace mh
 
-#endif  // MH_COMMIT_H
+#endif  // SHF_COMMIT_H

@@ -1,5 +1,5 @@
-#ifndef MH_PRG_H
-#define MH_PRG_H
+#ifndef SHF_PRG_H
+#define SHF_PRG_H
 
 #include <wmmintrin.h>
 
@@ -42,4 +42,4 @@ class Prg {
 
 }  // namespace mh
 
-#endif  // MH_PRG_H
+#endif  // SHF_PRG_H

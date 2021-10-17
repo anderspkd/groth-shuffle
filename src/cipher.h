@@ -1,5 +1,5 @@
-#ifndef MH_CIPHER_H
-#define MH_CIPHER_H
+#ifndef SHF_CIPHER_H
+#define SHF_CIPHER_H
 
 #include <vector>
 
@@ -69,4 +69,4 @@ Ctxt Dot(const std::vector<shf::Scalar>& as, const std::vector<Ctxt>& Es);
 
 }  // namespace mh
 
-#endif  // MH_CIPHER_H
+#endif  // SHF_CIPHER_H

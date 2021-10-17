@@ -1,5 +1,5 @@
-#ifndef MH_HASH_H
-#define MH_HASH_H
+#ifndef SHF_HASH_H
+#define SHF_HASH_H
 
 #include <array>
 #include <cstdint>
@@ -40,4 +40,4 @@ Scalar ScalarFromHash(const Hash& hash);
 
 }  // namespace mh
 
-#endif  // MH_HASH_H
+#endif  // SHF_HASH_H
